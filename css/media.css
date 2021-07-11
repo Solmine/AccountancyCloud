@@ -1,0 +1,19 @@
+@media screen and (max-width: 480px){
+    .header_menu, .first_screen__right{
+        display: none;
+    }
+    .wrapper{
+        padding: 0 20px;
+    }
+    .button_talk__to__us{
+        position: inherit;
+    }
+    .first_screen__grid h1{
+        font-size: 60px;
+        line-height: 73px;
+    }
+    .mobile_menu__button{
+        display: flex;
+    }
+
+}

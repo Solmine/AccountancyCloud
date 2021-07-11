@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    padding-left: 145px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.a-items-center {
+    align-items: center;
+}
+.j-c-center{
+    justify-content: center;
+}
+
+.header_top {
+    height: 100px;
+}
+
+.header_top__grid {
+    column-gap: 141px;
+    /*grid-column-gap: 141px; - для маков*/
+}
+
+.header_menu__nav {
+    column-gap: 22px;
+}
+
+.header_menu__buttons {
+    margin-left: 27px;
+    column-gap: 18px;
+}
+
+.header_menu__nav__item a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+.header_menu__button__login, .header_menu__button__expert, .button_talk__to__us button{
+    font-weight: bold;
+    font-size: 18px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 100px;
+    padding: 15px 25px;
+    cursor: pointer;
+    transition: background-color 500ms, color 500ms;
+}
+.header_menu__button__login{
+    color: black;
+    background-color: white;
+}
+.header_menu__button__login:hover{
+    color: white;
+    background-color: black;
+}
+.header_menu__button__expert, .button_talk__to__us button{
+    color: white;
+    background-color: black;
+}
+.header_menu__button__expert:hover, .button_talk__to__us button:hover{
+    color: black;
+    background-color: white;
+}
+.first_screen{
+    position: relative;
+}
+.first_screen__grid{
+    column-gap: 50px;
+    border-bottom: 1px solid #eaeef2;
+}
+.first_screen__grid h1{
+    font-weight: bold;
+    font-size: 77px;
+    line-height: 83px;
+    color: #000000;
+    margin-bottom: 27px;
+}
+.first_screen__left{
+    max-width: 490px;
+    padding-top: 90px;
+}
+.first_screen__left p{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    color: #000000;
+}
+.first_screen__right{
+    padding-top: 30px;
+}
+.button_talk__to__us{
+    width: 215px;
+    position: absolute;
+    bottom: -30px;
+    left: 140px;
+}
+.button_talk__to__us button{
+    font-size: 22px;
+    margin-top: 27px;
+}
+.button_talk__to__us h4{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+}
+.mobile_menu__button{
+    width: 60px;
+    height: 60px;
+    display: none;
+}
+.mobile_menu__button span{
+    height: 5px;
+    width: 80%;
+    background-color: black;
+    display: block;
+    position: relative;
+    /*border-radius: 5px;*/
+}
+.mobile_menu__button span::before, .mobile_menu__button span::after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: block;
+    position: absolute;
+    /*border-radius: 5px;*/
+}
+.mobile_menu__button span::before{
+    top: -10px;
+}
+.mobile_menu__button span::after{
+    bottom: -10px;
+}
