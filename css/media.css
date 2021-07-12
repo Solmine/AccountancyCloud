@@ -4,9 +4,14 @@
     }
     .wrapper{
         padding: 0 20px;
+        margin-bottom: 32px;
+    }
+    .first_screen__left{
+        padding-top: 30px;
     }
     .button_talk__to__us{
         position: inherit;
+        bottom: 0;
     }
     .first_screen__grid h1{
         font-size: 60px;
@@ -16,9 +21,65 @@
         display: flex;
     }
     .second_screen__right{
-        max-width: 370px;
+        max-width: 450px;
     }
-    .third_screen__advantages, .fifth_screen__logos__wrapper, .seventh_screen__grid, .footer_service__list{
+    .third_screen__advantages, .fifth_screen__logos__wrapper, .seventh_screen__grid, .footer_service__list, .fifth_screen__logos__wrapper__row, .fifth_screen__grid{
         flex-direction: column;
+    }
+    .second_screen__grid{
+        margin-top: 60px;
+    }
+    .third_screen__grid{
+        padding-bottom: 24px;
+    }
+    .third_screen__grid h2{
+        font-size: 48px;
+        margin-bottom: 24px;
+
+    }
+    .third_screen__advantages{
+        column-gap: 0;
+        margin-bottom: 32px;
+    }
+    .third_screen__advantages__item{
+        width: 420px;
+    }
+    .fourth_screen__grid{
+        padding-top: 24px;
+    }
+    .fourth_screen__grid h2{
+        margin-bottom: 23px;
+    }
+    .fifth_screen__grid{
+        margin-top: 54px;
+        margin-right: 0;
+        margin-bottom: 54px;
+        justify-content: center;
+        align-items: center;
+    }
+    .fifth_screen__grid p{
+        margin-bottom: 20px;
+    }
+    .fifth_screen__logos__wrapper{
+        max-width: 200px;
+    }
+    .sixth_screen__grid{
+        margin-bottom: 54px;
+    }
+    .sixth_screen__left p{
+        margin-bottom: 54px;
+    }
+    .seventh_screen__grid{
+        padding: 32px;
+        margin-bottom: 54px;
+    }
+    .seventh_screen__left{
+        margin-bottom: 32px;
+    }
+    .footer_service__list{
+        line-height: 32px;
+    }
+    .footer_grid{
+        margin-bottom: 0;
     }
 }
