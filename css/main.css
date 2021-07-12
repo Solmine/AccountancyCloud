@@ -9,6 +9,7 @@
 
 .wrapper {
     padding-left: 145px;
+    padding-right: 145px;
     margin-bottom: 54px;
 }
 
@@ -241,7 +242,8 @@
 }
 .fifth_screen__grid{
     margin-top: 108px;
-    margin-right: 260px;
+    margin-right: 115px;
+    margin-bottom: 143px;
     justify-content: space-between;
 }
 .fifth_screen__grid p{
@@ -260,4 +262,25 @@
 
 .fifth_screen__logos__wrapper__row{
     justify-content: space-around;
+}
+.sixth_screen__grid{
+    column-gap: 104px;
+}
+.sixth_screen__left h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 58px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.sixth_screen__left p{
+    max-width: 550px;
+    margin-bottom: 80px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+     color: #000000;
+
 }
