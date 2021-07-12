@@ -226,3 +226,16 @@
     background-color: black;
     color: white;
 }
+.fourth_screen__grid{
+    background-color: #FDECED;
+    padding-top: 88px;
+    padding-bottom: 36px;
+}
+.fourth_screen__grid h2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 58px;
+    color: #000000;
+    margin-bottom: 82px;
+}
