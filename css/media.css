@@ -1,5 +1,5 @@
 @media screen and (max-width: 480px){
-    .header_menu, .first_screen__right{
+    .header_menu, .first_screen__right, .second_screen__left, .sixth_screen__right, .footer_menu{
         display: none;
     }
     .wrapper{
@@ -15,5 +15,10 @@
     .mobile_menu__button{
         display: flex;
     }
-
+    .second_screen__right{
+        max-width: 370px;
+    }
+    .third_screen__advantages, .fifth_screen__logos__wrapper, .seventh_screen__grid, .footer_service__list{
+        flex-direction: column;
+    }
 }
