@@ -239,3 +239,25 @@
     color: #000000;
     margin-bottom: 82px;
 }
+.fifth_screen__grid{
+    margin-top: 108px;
+    margin-right: 260px;
+    justify-content: space-between;
+}
+.fifth_screen__grid p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 36px;
+    color: #000000;
+    padding-top: 20px;
+    max-width: 240px;
+
+}
+.fifth_screen__logos__wrapper{
+    width: 700px;
+}
+
+.fifth_screen__logos__wrapper__row{
+    justify-content: space-around;
+}
